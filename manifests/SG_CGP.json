@@ -1,0 +1,550 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://Maria9606.github.io/AnaMendieta-NanGoldin/manifests/SG_CGP.json",
+  "@type" : "sc:Manifest",
+  "label" : "Computer-Generated Pictures by A. Michael Noll",
+  "metadata" : [ {
+    "label" : "Exhibition",
+    "value" : "Computer-Generated Pictures "
+  }, {
+    "label" : "Creator",
+    "value" : "A. Michael Noll"
+  }, {
+    "label" : "Gallery",
+    "value" : "Howard Wise Gallery"
+  }, {
+    "label" : "Date Available",
+    "value" : "April 8-24, 1965"
+  }, {
+    "label" : "Is Referenced By",
+    "value" : "Noll, A. Michael, Early Digital Computer Art at Bell Telephone Laboratories, Incorporated, Leonardo, Vol. 49, No. 1, 2016, pp. 55-65. \n"
+  }, {
+    "label" : "Is Referenced By",
+    "value" : "Noll, A. Michael, The Beginnings of Computer Art in the United States: A Memoir, Leonardo, Vol. 27, No. 1, 1991, pp. 39-44."
+  }, {
+    "label" : "Is Referenced By",
+    "value" : "Noll, A. Michael, The Howard Wise Gallery Show (1965): A 50th-Anniversary Memoir, Leonardo, Vol. 49, No. 3, 2016, pp. 232-239."
+  }, {
+    "label" : "Is Reference By",
+    "value" : "Taylor, D. Grant, Routing Mondrian: The A. Michael Noll Experiment, \nMedia-N. 8, No. 2, 2012, pp. 11–17."
+  }, {
+    "label" : "Subject",
+    "value" : "computer art"
+  }, {
+    "label" : "Coverage",
+    "value" : "New York"
+  }, {
+    "label" : "Subject",
+    "value" : "IBM 7094"
+  }, {
+    "label" : "Subject",
+    "value" : "SC-4020 Microfilm Plotter"
+  }, {
+    "label" : "Subject",
+    "value" : "algorithmic art"
+  }, {
+    "label" : "Subject",
+    "value" : "black-and-white prints"
+  }, {
+    "label" : "Subject",
+    "value" : "computer-generated"
+  }, {
+    "label" : "Subject",
+    "value" : "computer drawings"
+  }, {
+    "label" : "Source",
+    "value" : "ULAN"
+  }, {
+    "label" : "Source",
+    "value" : "AAT"
+  }, {
+    "label" : "Source",
+    "value" : "TGN"
+  } ],
+  "description" : {
+    "@value" : "In April 1965, the Howard Wise Gallery in New York City held a show  exhibition of computer art under the title of Computer-Generated Pictures featuring A. Michael Noll and Bela Julesz. The show was one of the world's first exhibitions of computer generated works. ",
+    "@language" : "En"
+  },
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "sequences" : [ {
+    "@id" : "http://553b7ef4-4ecd-4631-b741-3c75443db1e9",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://e41da654-a212-4cd5-af08-6dfdfe5d299e",
+      "@type" : "sc:Canvas",
+      "label" : "GaussianQuadratic_front",
+      "height" : 2500,
+      "width" : 1875,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://31ff43e8-7e06-49c2-85dd-6717bcefb2d0",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8182/iiif/2/GauQuadratic.jpg/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "http://localhost:8182/iiif/2/GauQuadratic.jpg",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "tif", "jpg", "gif", "png" ],
+              "maxArea" : 4687500,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ]
+          },
+          "height" : 2500,
+          "width" : 1875
+        },
+        "on" : "http://e41da654-a212-4cd5-af08-6dfdfe5d299e"
+      } ],
+      "metadata" : [ {
+        "label" : "Title ",
+        "value" : "Gaussian-Quadratic"
+      }, {
+        "label" : "Creator",
+        "value" : "A. Michael Noll"
+      }, {
+        "label" : "Subject",
+        "value" : "computer art"
+      }, {
+        "label" : "Subject",
+        "value" : "algorithmic art"
+      }, {
+        "label" : "Subject",
+        "value" : "composition"
+      }, {
+        "label" : "Subject",
+        "value" : "black-and-white prints"
+      }, {
+        "label" : "Subject",
+        "value" : "lines"
+      }, {
+        "label" : "Description",
+        "value" : "Photographic print of computer-generated image, showing 100 points connected via 99 straight lines whose horizontal coordinates are Gaussian while the vertical positions increase quadratically. As a point reaches the top, it is reflected to the bottom to continue its rise. This was Noll's first serious piece of computer art, which he found suggestive of Picasso's cubism, in particular Ma Jolie. "
+      }, {
+        "label" : "Publisher",
+        "value" : "Victoria and Albert Museum"
+      }, {
+        "label" : "Date created",
+        "value" : "1963"
+      }, {
+        "label" : "Date copyrighted ",
+        "value" : "1965"
+      }, {
+        "label" : "Type",
+        "value" : "Physical object"
+      }, {
+        "label" : "Extent",
+        "value" : "28 x 21.8 cm"
+      }, {
+        "label" : "Identifier",
+        "value" : "E.33-2011"
+      }, {
+        "label" : "Source",
+        "value" : "https://collections.vam.ac.uk/item/O1193785/gaussian-quadratic-photograph-a-michael-noll/"
+      }, {
+        "label" : "Source",
+        "value" : "AAT"
+      }, {
+        "label" : "Relation",
+        "value" : "https://collections.vam.ac.uk/item/O1193787/computer-composition-with-lines-photograph-a-michael-noll/"
+      }, {
+        "label" : "Relation ",
+        "value" : "https://collections.vam.ac.uk/item/O1193786/ninety-parallel-sinusoids-with-linearly-photograph-a-michael-noll/"
+      }, {
+        "label" : "Relation",
+        "value" : "https://collections.vam.ac.uk/item/O1193788/vertical-horizontal-number-three-photograph-a-michael-noll/"
+      }, {
+        "label" : "Has Version",
+        "value" : "https://collections.vam.ac.uk/item/O1404952/gaussian-quadratic-photograph-a-michael-noll/"
+      }, {
+        "label" : "Coverage",
+        "value" : "New Jersey (Bell Labs)"
+      }, {
+        "label" : "Rights ",
+        "value" : "Victoria and Albert Museum, London/A. Michael Noll"
+      }, {
+        "label" : "Is Referenced By",
+        "value" : "Noll, A. Michael, Patterns by 7090, Bell Telephone Laboratories, Incorporated, Technical Memorandum, August 28, 1962."
+      }, {
+        "label" : "Source",
+        "value" : "ULAN"
+      }, {
+        "label" : "Inscription",
+        "value" : "lower center: © AMN 1965, GAUSSIAN - QUADRATIC (1963), BY A. MICHAEL NOLL"
+      }, {
+        "label" : "Source",
+        "value" : "TGN"
+      }, {
+        "label" : "Subject",
+        "value" : "contemporary"
+      } ]
+    }, {
+      "@id" : "http://512279f6-a402-44be-a5a9-7227e5a1e165",
+      "@type" : "sc:Canvas",
+      "label" : "VerticalHorizontalNumberThree_front",
+      "height" : 2500,
+      "width" : 1891,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://2240a135-4b04-48df-8775-10ac11a72535",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8182/iiif/2/VerticalHorizontalNumberThree.jpg/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "http://localhost:8182/iiif/2/VerticalHorizontalNumberThree.jpg",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "tif", "jpg", "gif", "png" ],
+              "maxArea" : 4727500,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ]
+          },
+          "height" : 2500,
+          "width" : 1891
+        },
+        "on" : "http://512279f6-a402-44be-a5a9-7227e5a1e165"
+      } ],
+      "related" : "",
+      "metadata" : [ {
+        "label" : "Title",
+        "value" : "Vertical - Horizontal Number Three"
+      }, {
+        "label" : "Creator",
+        "value" : "A. Michael Noll"
+      }, {
+        "label" : "Subject ",
+        "value" : "computer art"
+      }, {
+        "label" : "Subject ",
+        "value" : "algorithmic art"
+      }, {
+        "label" : "Subject ",
+        "value" : "composition"
+      }, {
+        "label" : "Subject ",
+        "value" : "black-and-white prints"
+      }, {
+        "label" : "Subject ",
+        "value" : "geometric figures"
+      }, {
+        "label" : "Subject ",
+        "value" : "lines"
+      }, {
+        "label" : "Subject ",
+        "value" : "comtemporary"
+      }, {
+        "label" : "Description ",
+        "value" : "Photographic print of one-hundred-and-one randomly selected points connected by vertical and horizontal line segments. The result is a continuous and overlapping single black line forming rectangles and squares on a white background."
+      }, {
+        "label" : "Publisher",
+        "value" : "Victoria and Albert Museum"
+      }, {
+        "label" : "Date created",
+        "value" : "1964"
+      }, {
+        "label" : "Date copyrighted ",
+        "value" : "1965"
+      }, {
+        "label" : "Type",
+        "value" : "Physical object"
+      }, {
+        "label" : "Format ",
+        "value" : "Print"
+      }, {
+        "label" : "Extent ",
+        "value" : "28 x 21.8 cm"
+      }, {
+        "label" : "Identifier ",
+        "value" : "E.36-2011"
+      }, {
+        "label" : "Relation ",
+        "value" : "https://collections.vam.ac.uk/item/O1193787/computer-composition-with-lines-photograph-a-michael-noll/"
+      }, {
+        "label" : "Relation ",
+        "value" : "https://collections.vam.ac.uk/item/O1193786/ninety-parallel-sinusoids-with-linearly-photograph-a-michael-noll/"
+      }, {
+        "label" : "Relation ",
+        "value" : "https://collections.vam.ac.uk/item/O1193785/gaussian-quadratic-photograph-a-michael-noll/"
+      }, {
+        "label" : "Coverage",
+        "value" : "New Jersey (Bell Labs)"
+      }, {
+        "label" : "Rights ",
+        "value" : "Victoria and Albert Museum, London/A. Michael Noll"
+      }, {
+        "label" : "Is Referenced By",
+        "value" : "Noll, A. Michael, Patterns by 7090, Bell Telephone Laboratories, Incorporated, Technical Memorandum, August 28, 1962."
+      }, {
+        "label" : "Source",
+        "value" : "AAT"
+      }, {
+        "label" : "Source",
+        "value" : "ULAN"
+      }, {
+        "label" : "Source",
+        "value" : "TGN"
+      }, {
+        "label" : "Inscription ",
+        "value" : "lower center: © AMN 1965, VERTICAL - HORIZONTAL NUMBER THREE (1964), BY A. MICHAEL NOLL"
+      } ]
+    }, {
+      "@id" : "http://8f28ad66-8189-4a44-8e7e-bce2af18f924",
+      "@type" : "sc:Canvas",
+      "label" : "NinetyParallelSinusoids_front",
+      "height" : 2500,
+      "width" : 1891,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://f908c858-d636-485b-bbfe-c23febf1f9f5",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8182/iiif/2/NinetyParallelSinusoids.jpg/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "http://localhost:8182/iiif/2/NinetyParallelSinusoids.jpg",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "tif", "jpg", "gif", "png" ],
+              "maxArea" : 4727500,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ]
+          },
+          "height" : 2500,
+          "width" : 1891
+        },
+        "on" : "http://8f28ad66-8189-4a44-8e7e-bce2af18f924"
+      } ],
+      "related" : "",
+      "metadata" : [ {
+        "label" : "Title",
+        "value" : "Ninety Parallel Sinusoids with Linearly Increasing Period"
+      }, {
+        "label" : "Creator",
+        "value" : "A. Michael Noll"
+      }, {
+        "label" : "Subject",
+        "value" : "computer art"
+      }, {
+        "label" : "Subject",
+        "value" : "algorithmic art"
+      }, {
+        "label" : "Subject",
+        "value" : "black-and-white prints"
+      }, {
+        "label" : "Subject",
+        "value" : "computer graphics"
+      }, {
+        "label" : "Subject",
+        "value" : "reproduction"
+      }, {
+        "label" : "Subject",
+        "value" : "contemporary"
+      }, {
+        "label" : "Subject",
+        "value" : "parallel"
+      }, {
+        "label" : "Subject",
+        "value" : "lines"
+      }, {
+        "label" : "Description ",
+        "value" : "Photographic print of computer-generated image based on Bridget Riley's opt-art \"Current\", which consisted of a series of parallel curved lines. In the computer version, the waveforms were produced by mathematically specifying the top line as a sinusoid with linearly increasing period. The computer then repeated this line ninety times. For Noll it was proof of how the computer could eliminate the tedious part of producing \"op\" effects.  "
+      }, {
+        "label" : "Publisher",
+        "value" : "Victoria and Albert Museum"
+      }, {
+        "label" : "Date created",
+        "value" : "1964"
+      }, {
+        "label" : "Date copyrighted",
+        "value" : "1965"
+      }, {
+        "label" : "Type",
+        "value" : "Physical object"
+      }, {
+        "label" : "Extent",
+        "value" : "28 x 21.8 cm"
+      }, {
+        "label" : "Format",
+        "value" : "Print"
+      }, {
+        "label" : "Identifier",
+        "value" : "E.34-2011"
+      }, {
+        "label" : "Source",
+        "value" : "https://collections.vam.ac.uk/item/O1193786/ninety-parallel-sinusoids-with-linearly-photograph-a-michael-noll/"
+      }, {
+        "label" : "Source",
+        "value" : "AAT"
+      }, {
+        "label" : "Relation ",
+        "value" : "https://collections.vam.ac.uk/item/O1193787/computer-composition-with-lines-photograph-a-michael-noll/"
+      }, {
+        "label" : "Relation",
+        "value" : "https://collections.vam.ac.uk/item/O1193785/gaussian-quadratic-photograph-a-michael-noll/"
+      }, {
+        "label" : "Relation",
+        "value" : "https://collections.vam.ac.uk/item/O1193788/vertical-horizontal-number-three-photograph-a-michael-noll/"
+      }, {
+        "label" : "Has Version",
+        "value" : "https://collections.vam.ac.uk/item/O1404977/ninety-parallel-sinusoids-with-linearly-photograph-a-michael-noll/"
+      }, {
+        "label" : "Coverage",
+        "value" : "New Jersey (Bell Labs)"
+      }, {
+        "label" : "Rights",
+        "value" : "Victoria and Albert Museum, London/A. Michael Noll"
+      }, {
+        "label" : "Source",
+        "value" : "ULAN"
+      }, {
+        "label" : "Source",
+        "value" : "TGN"
+      }, {
+        "label" : "Subject",
+        "value" : "visual effects"
+      } ]
+    }, {
+      "@id" : "http://8ed49e84-03aa-4536-a8c2-c388a18bf942",
+      "@type" : "sc:Canvas",
+      "label" : "Computer Composition With Lines",
+      "height" : "1773",
+      "width" : "1400",
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://d73364bd-16f3-46e3-9b97-3a0d506b5fbf",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8182/iiif/2/ComputerCompositionWithLines.jpg/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "http://localhost:8182/iiif/2/ComputerCompositionWithLines.jpg",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "tif", "jpg", "gif", "png" ],
+              "maxArea" : 2482200,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ]
+          },
+          "height" : 1773,
+          "width" : 1400
+        },
+        "on" : "http://8ed49e84-03aa-4536-a8c2-c388a18bf942"
+      } ],
+      "metadata" : [ {
+        "label" : "Title",
+        "value" : "Computer Composition With Lines"
+      }, {
+        "label" : "Creator",
+        "value" : "A. Michael Noll"
+      }, {
+        "label" : "Subject",
+        "value" : "computer art"
+      }, {
+        "label" : "Subject",
+        "value" : "composition "
+      }, {
+        "label" : "Subject",
+        "value" : "black-and-white prints"
+      }, {
+        "label" : "Subject",
+        "value" : "dot and line "
+      }, {
+        "label" : "Subject",
+        "value" : "reproduction "
+      }, {
+        "label" : "Description ",
+        "value" : "Photographic print of computer-generated image with horizontal and vertical black bars forming a central circle. The image was created algorithmically with pseudo-random processes to mimic Piet Mondrian's \"Composition With Lines\". The bars in the computer-generated picture were placed according to a pseudorandom number generator with statistics chosen to approximate the bar density, lengths, and widths of the Mondrian painting. Copies of both works were shown to people, a majority of whom expressed a preference for the computer work and thought it was by Mondrian - which became a classic experiment in aesthetics. The work won first prize in August 1965 in the contest held by Computers and Automation magazine. "
+      }, {
+        "label" : "Publisher",
+        "value" : "Victoria and Albert Museum"
+      }, {
+        "label" : "Date Created",
+        "value" : "1964"
+      }, {
+        "label" : "Type",
+        "value" : "physical object"
+      }, {
+        "label" : "Identifier",
+        "value" : "E.35-2011"
+      }, {
+        "label" : "Rights",
+        "value" : "Victoria and Albert Museum, London/A. Michael Noll"
+      }, {
+        "label" : "Subject",
+        "value" : "algorithmic art"
+      }, {
+        "label" : "Subject",
+        "value" : "comtemporary"
+      }, {
+        "label" : "Subject",
+        "value" : "experimentation"
+      }, {
+        "label" : "Subject",
+        "value" : "circles"
+      }, {
+        "label" : "Date Copyrighted",
+        "value" : "1965"
+      }, {
+        "label" : "Extent",
+        "value" : "28 x 21.8 cm"
+      }, {
+        "label" : "Format",
+        "value" : "Print"
+      }, {
+        "label" : "Source",
+        "value" : "https://collections.vam.ac.uk/item/O1193787/computer-composition-with-lines-photograph-a-michael-noll/"
+      }, {
+        "label" : "Has version",
+        "value" : "https://collections.vam.ac.uk/item/O1404978/computer-composition-with-lines-photograph-a-michael-noll/"
+      }, {
+        "label" : "Relation ",
+        "value" : "https://collections.vam.ac.uk/item/O1193786/ninety-parallel-sinusoids-with-linearly-photograph-a-michael-noll/"
+      }, {
+        "label" : "Relation ",
+        "value" : "https://collections.vam.ac.uk/item/O1193785/gaussian-quadratic-photograph-a-michael-noll/"
+      }, {
+        "label" : "Relation",
+        "value" : "https://collections.vam.ac.uk/item/O1193788/vertical-horizontal-number-three-photograph-a-michael-noll/"
+      }, {
+        "label" : "Is Referenced By",
+        "value" : "Noll, A. Michael, Human or Machine: A Subjective Comparison of Piet Mondrian's 'Composition with Lines' and a Computer-Generated Picture, The Psychological Record, Vol. 16., No. 1, 1966, pp. 1-10."
+      }, {
+        "label" : "Coverage",
+        "value" : "New Jersey (Bell Labs)"
+      }, {
+        "label" : "Source",
+        "value" : "AAT"
+      }, {
+        "label" : "Source",
+        "value" : "ULAN"
+      }, {
+        "label" : "Source",
+        "value" : "TGN"
+      }, {
+        "label" : "Inscription ",
+        "value" : "lower center: COMPUTER COMPOSITION WITH LINES (1964) BY A. MICHAEL NOLL"
+      }, {
+        "label" : "Inscription",
+        "value" : "lower on the left: © AMN 1965"
+      } ]
+    } ]
+  } ],
+  "structures" : [ ]
+}
